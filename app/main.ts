@@ -1,6 +1,6 @@
 import 'angular';
 
-import { app } from './app/app.module';
+import { app } from './app.module';
 
 (function() {
     let dependencies: string[] = [

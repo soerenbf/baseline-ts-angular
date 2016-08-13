@@ -9,7 +9,7 @@ namespace baseline {
     export let testComponent: ng.IComponentOptions = {
         controller: TestController,
         template: `
-            <div>Test component!</div>
+            <div>Test component is an awesome component!</div>
         `
     }
 }
