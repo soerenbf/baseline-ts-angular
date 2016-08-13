@@ -1,0 +1,11 @@
+node_modules
+typings
+.sass-cache
+
+#Build
+dev
+dist
+
+#Files
+*.js
+*.js.map
