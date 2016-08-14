@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "gulp": "registry:npm/gulp#4.0.0-alpha.2+20160723033700"
-  },
   "globalDependencies": {
     "angular": "registry:dt/angular#1.5.0+20160802155123",
     "jquery": "registry:dt/jquery#1.10.0+20160704162008"
