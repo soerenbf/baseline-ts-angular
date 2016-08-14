@@ -7,7 +7,6 @@ dev
 dist
 
 #Files
-index.html
 *.js
 *.js.map
 

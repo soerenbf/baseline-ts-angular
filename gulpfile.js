@@ -80,14 +80,14 @@ gulp.task('html:dev', function() {
     return gulp.src('./index.template.html')
         .pipe(template({isProd: false}))
         .pipe(rename('index.html'))
-        .pipe(gulp.dest('.'));
+        .pipe(gulp.dest('dev'));
 });
 
 gulp.task('html:prod', function() {
     return gulp.src('./index.template.html')
         .pipe(template({isProd: true}))
         .pipe(rename('index.html'))
-        .pipe(gulp.dest('.'));
+        .pipe(gulp.dest('dist'));
 });
 
 /* -- Watcher -- */
